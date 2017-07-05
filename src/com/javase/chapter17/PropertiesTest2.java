@@ -37,7 +37,7 @@ public class PropertiesTest2 {
 		System.out.println("«Î ‰»Î–’√˚:");
 		String name = scan.next();
 		if(name.equals("√Ø §")){
-			System.out.println(properties.getProperty("msg_login_successfully"));
+			System.out.println(properties.getProperty("msg_login_successfully","Yes,welcome!"));
 		}else{
 			System.out.println(properties.getProperty("msg_login_fail"));
 		}
